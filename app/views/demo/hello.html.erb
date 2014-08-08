@@ -1,0 +1,23 @@
+<h1>Demo#index</h1>
+<p>Hello from hello!</p>
+
+<% new = 1 + 1 %>
+
+<%= new %>
+
+<% target = "fuck" %>
+
+<%= "You are #{target}" %>
+<br />
+
+<% @array.each do |n| %>
+	<%= n %><br />
+<% end %>
+
+<%= link_to "Index", controller: "demo", action: "index" %>
+
+<%= params.inspect %>
+
+
+ID: <%= @id %><br/>
+PAGE: <%= @page %><br/>
